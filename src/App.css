@@ -63,7 +63,7 @@ header {
   border-radius: 2px;
 }
 
-.basic-top {
+.card {
   display: flex;
 }
 
@@ -72,6 +72,8 @@ header {
   height: 2.5rem;
   background-color: lightblue;
   border-radius: 20px;
+  display: inline-block;
+  margin-bottom: 3.5rem;
 }
 
 .alias {
@@ -93,6 +95,9 @@ header {
 }
 
 .basic {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
   margin-top: 1rem;
   border-bottom: 1px solid lightgray;
 }
@@ -107,4 +112,12 @@ header {
   color: gray;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
+}
+
+.col-20 {
+  flex-basis: 7%;
+}
+
+.col-80 {
+  flex-basis: 93%;
 }
