@@ -3,6 +3,7 @@ function Fyp() {
   return (
     <>
       <Basic />
+      <Media />
     </>
   );
 }

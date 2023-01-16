@@ -121,3 +121,13 @@ header {
 .col-80 {
   flex-basis: 93%;
 }
+
+.media-text {
+  margin-left: 1rem;
+}
+
+.tweet-img {
+  width: 100%;
+  padding: 1rem;
+  border-radius: 30px;
+}
