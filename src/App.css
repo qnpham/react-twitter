@@ -2,11 +2,13 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  text-decoration: none;
 }
 
 body {
   background-color: black;
   color: white;
+  font-size: 0.95rem;
 }
 
 .container {
@@ -59,4 +61,50 @@ header {
 .blue-underline {
   border-bottom: 4px #4287f5 solid;
   border-radius: 2px;
+}
+
+.basic-top {
+  display: flex;
+}
+
+.tweet-pfp {
+  width: 2.5rem;
+  height: 2.5rem;
+  background-color: lightblue;
+  border-radius: 20px;
+}
+
+.alias {
+  margin-left: 0.75rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.username {
+  font-size: 0.85rem;
+  margin-left: 0.75rem;
+  color: lightgray;
+}
+
+.time {
+  font-size: 0.85rem;
+  margin-left: 1rem;
+  color: lightgray;
+}
+
+.basic {
+  margin-top: 1rem;
+  border-bottom: 1px solid lightgray;
+}
+
+.basic-text {
+  padding: 00.75rem 0.5rem;
+}
+
+.icons {
+  display: flex;
+  justify-content: space-around;
+  color: gray;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
 }

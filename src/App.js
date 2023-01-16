@@ -1,5 +1,6 @@
 import "./App.css";
 import { useState } from "react";
+import Fyp from "./fyp.js";
 
 function App() {
   const [viewing, setViewing] = useState("fyp");
@@ -35,6 +36,9 @@ function App() {
               </div>
             </div>
           </header>
+          <main>
+            <Fyp />
+          </main>
         </div>
       </div>
     );
