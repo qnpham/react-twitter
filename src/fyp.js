@@ -8,7 +8,7 @@ function Fyp() {
         text={"hello world!"}
         hours={20}
       />
-      <Media />
+      <Media alias={"hello"} username={"anyafan9292"} hours={15} />
     </>
   );
 }

@@ -23,7 +23,7 @@ function Basic(props) {
   );
 }
 
-function Media() {
+function Media(props) {
   return (
     <div className="basic">
       <div className="column-full card">
@@ -32,9 +32,9 @@ function Media() {
         </div>
         <div className="col-80">
           <div className="user">
-            <span className="alias">alias</span>
-            <span className="username">@username</span>
-            <span className="time">* 20h</span>
+            <span className="alias">{props.alias}</span>
+            <span className="username">@{props.username}</span>
+            <span className="time">* {props.hours}h</span>
             <p className="media">
               <img
                 src="https://img1.ak.crunchyroll.com/i/spire2/e64be766aa2a3ce3811fc5a31454a0d71663339986_main.jpg"
