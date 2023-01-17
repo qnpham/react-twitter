@@ -1,4 +1,4 @@
-function Basic() {
+function Basic(props) {
   return (
     <div className="basic">
       <div className="column-full card">
@@ -7,15 +7,10 @@ function Basic() {
         </div>
         <div className="col-80">
           <div className="user">
-            <span className="alias">alias</span>
-            <span className="username">@username</span>
-            <span className="time">* 20h</span>
-            <p className="basic-text">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae
-              quas laborum nulla quo iusto recusandae nihil a fugiat eveniet
-              accusamus consequuntur praesentium debitis doloribus, nam, odit
-              fuga libero repellat provident.
-            </p>
+            <span className="alias">{props.alias}</span>
+            <span className="username">@{props.username}</span>
+            <span className="time">* {props.hours}h</span>
+            <p className="basic-text">{props.text}</p>
           </div>
         </div>
       </div>
