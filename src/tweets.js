@@ -15,9 +15,9 @@ function Basic(props) {
         </div>
       </div>
       <div className="icons column-full">
-        <i class="fa-regular fa-message"></i>
-        <i class="fa-solid fa-retweet"></i>
-        <i class="fa-regular fa-heart"></i>
+        <i className="fa-regular fa-message"></i>
+        <i className="fa-solid fa-retweet"></i>
+        <i className="fa-regular fa-heart"></i>
       </div>
     </div>
   );
@@ -46,16 +46,12 @@ function Media(props) {
         </div>
       </div>
       <div className="icons column-full">
-        <i class="fa-regular fa-message"></i>
-        <i class="fa-solid fa-retweet"></i>
-        <i class="fa-regular fa-heart"></i>
+        <i className="fa-regular fa-message"></i>
+        <i className="fa-solid fa-retweet"></i>
+        <i className="fa-regular fa-heart"></i>
       </div>
     </div>
   );
 }
 
-function Reply() {
-  return <h3>reply!</h3>;
-}
-
-export { Basic, Reply, Media };
+export { Basic, Media };
