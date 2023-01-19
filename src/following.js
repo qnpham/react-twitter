@@ -8,7 +8,12 @@ function Following() {
         text={"I love the spiderman game!"}
         hours={2}
       />
-      <Media alias={"hello"} username={"anyafan9292"} hours={15} />
+      <Media
+        alias={"crafter11"}
+        username={"minecraftisawesome"}
+        hours={15}
+        src="https://i.ytimg.com/vi/p-UOosKS8Ew/maxresdefault.jpg"
+      />
     </>
   );
 }
