@@ -1,6 +1,7 @@
 import "./App.css";
 import { useState } from "react";
 import Fyp from "./fyp.js";
+import Following from "./following";
 
 function App() {
   const [viewing, setViewing] = useState("fyp");
@@ -73,6 +74,7 @@ function App() {
     page = <Fyp />;
   } else {
     headerButtons = <HeaderPage page="following" />;
+    page = <Following />;
   }
 
   return (

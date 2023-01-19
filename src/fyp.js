@@ -1,4 +1,4 @@
-import { Reply, Basic, Media } from "./tweets";
+import { Basic, Media } from "./tweets";
 function Fyp() {
   return (
     <>
