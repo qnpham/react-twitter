@@ -24,6 +24,9 @@ function Basic(props) {
 }
 
 function Media(props) {
+  const mediaText = props.text ? (
+    <p className="media-text">{props.text}</p>
+  ) : null;
   return (
     <div className="basic">
       <div className="column-full card">
@@ -35,12 +38,9 @@ function Media(props) {
             <span className="alias">{props.alias}</span>
             <span className="username">@{props.username}</span>
             <span className="time">* {props.hours}h</span>
+            {mediaText}
             <p className="media">
-              <img
-                src="https://img1.ak.crunchyroll.com/i/spire2/e64be766aa2a3ce3811fc5a31454a0d71663339986_main.jpg"
-                alt=""
-                className="tweet-img"
-              />
+              <img src={props.src} alt="" className="tweet-img" />
             </p>
           </div>
         </div>
