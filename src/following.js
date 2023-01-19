@@ -13,6 +13,7 @@ function Following() {
         username={"minecraftisawesome"}
         hours={15}
         src="https://i.ytimg.com/vi/p-UOosKS8Ew/maxresdefault.jpg"
+        text="check out this cool minecraft build!"
       />
     </>
   );
