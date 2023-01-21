@@ -66,6 +66,17 @@ function App() {
     }
   }
 
+  function Footer(props) {
+    return (
+      <div className="footer-container">
+        <i className="fa-solid fa-house-user"></i>
+        <i className="fa-solid fa-magnifying-glass"></i>
+        <i class="fa-solid fa-bell"></i>
+        <i class="fa-solid fa-envelope"></i>
+      </div>
+    );
+  }
+
   let headerButtons = null;
   let page = null;
 
@@ -83,6 +94,9 @@ function App() {
         <header>{headerButtons}</header>
         <main>{page}</main>
       </div>
+      <footer>
+        <Footer />
+      </footer>
     </div>
   );
 }
