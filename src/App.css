@@ -14,7 +14,9 @@ body {
 .container {
   padding-top: 1rem;
   width: 94%;
+  height: 93vh;
   margin: auto;
+  overflow-y: scroll;
 }
 
 header {
@@ -133,4 +135,12 @@ header {
 
 .media-text {
   margin-top: 0.75rem;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  font-size: 1.35rem;
+  z-index: 1;
+  margin-top: 1rem;
 }

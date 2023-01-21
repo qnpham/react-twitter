@@ -14,6 +14,30 @@ function Fyp() {
         hours={15}
         src="https://img1.ak.crunchyroll.com/i/spire2/e64be766aa2a3ce3811fc5a31454a0d71663339986_main.jpg"
       />
+      <Basic
+        alias={"rob"}
+        username={"luckyguy77"}
+        text={"hello world!"}
+        hours={20}
+      />
+      <Basic
+        alias={"rob"}
+        username={"luckyguy77"}
+        text={"hello world!"}
+        hours={20}
+      />
+      <Basic
+        alias={"rob"}
+        username={"luckyguy77"}
+        text={"hello world!"}
+        hours={20}
+      />
+      <Basic
+        alias={"rob"}
+        username={"luckyguy77"}
+        text={"hello world!"}
+        hours={20}
+      />
     </>
   );
 }
