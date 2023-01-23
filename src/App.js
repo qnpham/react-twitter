@@ -71,8 +71,8 @@ function App() {
       <div className="footer-container">
         <i className="fa-solid fa-house-user"></i>
         <i className="fa-solid fa-magnifying-glass"></i>
-        <i class="fa-solid fa-bell"></i>
-        <i class="fa-solid fa-envelope"></i>
+        <i className="fa-solid fa-bell"></i>
+        <i className="fa-solid fa-envelope"></i>
       </div>
     );
   }
