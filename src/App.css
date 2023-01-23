@@ -17,6 +17,12 @@ body {
   height: 93vh;
   margin: auto;
   overflow-y: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.container::-webkit-scrollbar {
+  display: none;
 }
 
 header {
