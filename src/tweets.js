@@ -37,7 +37,7 @@ function Media(props) {
           <div className="user">
             <span className="alias">{props.alias}</span>
             <span className="username">@{props.username}</span>
-            <span className="time">* {props.hours}h</span>
+            <span className="time">* {props.time}</span>
             {mediaText}
             <p className="media">
               <img src={props.src} alt="" className="tweet-img" />
