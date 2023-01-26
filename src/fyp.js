@@ -21,30 +21,28 @@ const data = [
 ];
 function Fyp() {
   const tweets = data.map((e, i) => {
-    for (const key in e) {
-      if (key === "src") {
-        return (
-          <Media
-            alias={e.alias}
-            username={e.username}
-            text={e.text}
-            src={e.src}
-            time={e.time}
-            key={i}
-          />
-        );
-      } else {
-        return (
-          <Basic
-            alias={e.alias}
-            username={e.username}
-            text={e.text}
-            src={e.src}
-            time={e.time}
-            key={i}
-          />
-        );
-      }
+    if (e.src) {
+      return (
+        <Media
+          alias={e.alias}
+          username={e.username}
+          text={e.text}
+          src={e.src}
+          time={e.time}
+          key={i}
+        />
+      );
+    } else {
+      return (
+        <Basic
+          alias={e.alias}
+          username={e.username}
+          text={e.text}
+          src={e.src}
+          time={e.time}
+          key={i}
+        />
+      );
     }
   });
   return <>{tweets}</>;
