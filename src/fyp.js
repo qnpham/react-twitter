@@ -18,6 +18,12 @@ const data = [
     text: "hello world!",
     time: "20h",
   },
+  {
+    alias: "sponge",
+    username: "spongebobsquarefan",
+    time: "2w",
+    text: "are you ready???",
+  },
 ];
 function Fyp() {
   const tweets = data.map((e, i) => {
@@ -38,7 +44,6 @@ function Fyp() {
           alias={e.alias}
           username={e.username}
           text={e.text}
-          src={e.src}
           time={e.time}
           key={i}
         />

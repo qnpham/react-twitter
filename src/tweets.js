@@ -9,7 +9,7 @@ function Basic(props) {
           <div className="user">
             <span className="alias">{props.alias}</span>
             <span className="username">@{props.username}</span>
-            <span className="time">* {props.hours}h</span>
+            <span className="time">* {props.time}</span>
             <p className="basic-text">{props.text}</p>
           </div>
         </div>
