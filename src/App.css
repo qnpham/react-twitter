@@ -151,3 +151,29 @@ header {
   z-index: 1;
   margin-top: 1rem;
 }
+
+@media only screen and (min-width: 500px) {
+  .App {
+    display: flex;
+    height: 100vh;
+  }
+
+  .side-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1.25rem;
+    align-items: center;
+  }
+
+  .side-buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-basis: 60%;
+    align-items: center;
+  }
+  .side-pfp-container {
+    /* flex-basis: 10%; */
+  }
+}

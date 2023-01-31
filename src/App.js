@@ -5,7 +5,10 @@ import Following from "./following";
 
 function App() {
   const [viewing, setViewing] = useState("fyp");
-
+  const [screenWidth, setScreenWidth] = useState(window.screen);
+  window.addEventListener("resize", () => {
+    setScreenWidth(window.screen.width);
+  });
   function HeaderPage(props) {
     if (props.page === "fyp") {
       return (
@@ -66,13 +69,33 @@ function App() {
     }
   }
 
-  function Footer(props) {
+  function SmallFooter(props) {
     return (
       <div className="footer-container">
         <i className="fa-solid fa-house-user"></i>
         <i className="fa-solid fa-magnifying-glass"></i>
         <i className="fa-solid fa-bell"></i>
         <i className="fa-solid fa-envelope"></i>
+      </div>
+    );
+  }
+
+  function Footer(props) {
+    return (
+      <div className="side-container">
+        <div className="side-buttons">
+          <i className="fa-solid fa-house-user"></i>
+          <i className="fa-solid fa-magnifying-glass"></i>
+          <i className="fa-solid fa-bell"></i>
+          <i className="fa-solid fa-envelope"></i>
+          <i className="fa-solid fa-house-user"></i>
+          <i className="fa-solid fa-magnifying-glass"></i>
+          <i className="fa-solid fa-bell"></i>
+          <i className="fa-solid fa-envelope"></i>
+        </div>
+        <div className="side-pfp-container">
+          <div className="pfp"></div>
+        </div>
       </div>
     );
   }
@@ -88,17 +111,31 @@ function App() {
     page = <Following />;
   }
 
-  return (
-    <div className="App">
-      <div className="container">
-        <header>{headerButtons}</header>
-        <main>{page}</main>
+  if (screenWidth < 500) {
+    return (
+      <div className="App">
+        <div className="container">
+          <header>{headerButtons}</header>
+          <main>{page}</main>
+        </div>
+        <footer>
+          <SmallFooter />
+        </footer>
       </div>
-      <footer>
+    );
+  } else {
+    return (
+      <div className="App">
         <Footer />
-      </footer>
-    </div>
-  );
+        <div className="container">
+          {/* <header>{headerButtons}</header> */}
+          <main>
+            <div className="tweets-container">{page}</div>
+          </main>
+        </div>
+      </div>
+    );
+  }
 }
 
 export default App;
