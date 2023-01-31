@@ -56,14 +56,15 @@ header {
   text-align: center;
 }
 
-.fyp-container {
+.fyp-container,
+.following-container {
   display: flex;
   justify-content: center;
 }
 
-.following-container {
-  display: flex;
-  justify-content: center;
+.fyp-container,
+.following-container:hover {
+  cursor: pointer;
 }
 
 .blue-underline {
