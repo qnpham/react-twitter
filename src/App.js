@@ -116,7 +116,12 @@ function App() {
       <div className="App">
         <div className="container">
           <header>{headerButtons}</header>
-          <main>{page}</main>
+          <main>
+            {page}
+            <div className="plus-container">
+              <span className="plus">+</span>
+            </div>
+          </main>
         </div>
         <footer>
           <SmallFooter />
