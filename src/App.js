@@ -133,7 +133,10 @@ function App() {
       <div className="App">
         <Footer />
         <div className="container">
-          {/* <header>{headerButtons}</header> */}
+          <header>
+            <h2 className="home-text">Home</h2>
+            {headerButtons}
+          </header>
           <main>
             <div className="tweets-container">{page}</div>
           </main>
