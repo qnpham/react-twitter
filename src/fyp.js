@@ -24,6 +24,30 @@ const data = [
     time: "2w",
     text: "are you ready???",
   },
+  {
+    alias: "bee",
+    username: "luckyguy77",
+    text: "hello world!",
+    time: "20h",
+  },
+  {
+    alias: "sponge",
+    username: "spongebobsquarefan",
+    time: "2w",
+    text: "are you ready???",
+  },
+  {
+    alias: "bee",
+    username: "luckyguy77",
+    text: "hello world!",
+    time: "20h",
+  },
+  {
+    alias: "sponge",
+    username: "spongebobsquarefan",
+    time: "2w",
+    text: "are you ready???",
+  },
 ];
 function Fyp() {
   const tweets = data.map((e, i) => {
