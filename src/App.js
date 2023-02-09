@@ -69,7 +69,7 @@ function App() {
     }
   }
 
-  function SmallFooter(props) {
+  function Footer(props) {
     return (
       <div className="footer-container">
         <i className="fa-solid fa-house-user"></i>
@@ -80,7 +80,7 @@ function App() {
     );
   }
 
-  function Footer(props) {
+  function Sidebar(props) {
     return (
       <div className="side-container">
         <div className="side-buttons">
@@ -92,6 +92,7 @@ function App() {
           <i className="fa-solid fa-magnifying-glass"></i>
           <i className="fa-solid fa-bell"></i>
           <i className="fa-solid fa-envelope"></i>
+          <div className="sidetweet-btn">+</div>
         </div>
         <div className="side-pfp-container">
           <div className="pfp"></div>
@@ -124,14 +125,14 @@ function App() {
           </main>
         </div>
         <footer>
-          <SmallFooter />
+          <Footer />
         </footer>
       </div>
     );
   } else {
     return (
       <div className="App">
-        <Footer />
+        <Sidebar />
         <div className="container">
           <header>
             <h2 className="home-text">Home</h2>
