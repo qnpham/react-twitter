@@ -164,6 +164,8 @@ header {
     justify-content: space-between;
     padding: 1.25rem;
     align-items: center;
+    border-right: 1px solid #2f3336;
+    margin-right: 1rem;
   }
 
   .side-buttons {
