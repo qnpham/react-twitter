@@ -173,9 +173,6 @@ header {
     flex-basis: 60%;
     align-items: center;
   }
-  .side-pfp-container {
-    /* flex-basis: 10%; */
-  }
 }
 
 .plus-container {
