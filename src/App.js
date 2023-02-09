@@ -92,6 +92,7 @@ function App() {
           <i className="fa-solid fa-magnifying-glass"></i>
           <i className="fa-solid fa-bell"></i>
           <i className="fa-solid fa-envelope"></i>
+          <div className="sidetweet-btn">+</div>
         </div>
         <div className="side-pfp-container">
           <div className="pfp"></div>

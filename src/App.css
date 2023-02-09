@@ -159,6 +159,7 @@ header {
   }
 
   .side-container {
+    margin-top: 1rem;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -196,4 +197,15 @@ header {
 
 .home-text {
   margin-bottom: 2rem;
+}
+
+.sidetweet-btn {
+  background-color: #1c9bef;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
 }
