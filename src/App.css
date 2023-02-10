@@ -63,7 +63,16 @@ header {
 }
 
 .fyp-container,
-.following-container:hover {
+.following-container,
+.side-pfp-container,
+.message-icon,
+.retweet-icon,
+.heart-icon,
+.media,
+.tweet-pfp,
+.alias,
+.username,
+.pointer {
   cursor: pointer;
 }
 
