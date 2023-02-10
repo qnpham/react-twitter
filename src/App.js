@@ -84,15 +84,15 @@ function App() {
     return (
       <div className="side-container">
         <div className="side-buttons">
-          <i className="fa-solid fa-house-user"></i>
-          <i className="fa-solid fa-magnifying-glass"></i>
-          <i className="fa-solid fa-bell"></i>
-          <i className="fa-solid fa-envelope"></i>
-          <i className="fa-solid fa-house-user"></i>
-          <i className="fa-solid fa-magnifying-glass"></i>
-          <i className="fa-solid fa-bell"></i>
-          <i className="fa-solid fa-envelope"></i>
-          <div className="sidetweet-btn">+</div>
+          <i className="fa-solid fa-house-user pointer"></i>
+          <i className="fa-solid fa-magnifying-glass pointer"></i>
+          <i className="fa-solid fa-bell pointer"></i>
+          <i className="fa-solid fa-envelope pointer"></i>
+          <i className="fa-solid fa-house-user pointer"></i>
+          <i className="fa-solid fa-magnifying-glass pointer"></i>
+          <i className="fa-solid fa-bell pointer"></i>
+          <i className="fa-solid fa-envelope pointer"></i>
+          <div className="sidetweet-btn pointer">+</div>
         </div>
         <div className="side-pfp-container">
           <div className="pfp"></div>

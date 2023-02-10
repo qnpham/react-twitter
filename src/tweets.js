@@ -14,10 +14,10 @@ function Basic(props) {
           </div>
         </div>
       </div>
-      <div className="icons column-full">
-        <i className="fa-regular fa-message"></i>
-        <i className="fa-solid fa-retweet"></i>
-        <i className="fa-regular fa-heart"></i>
+      <div className="icons column-full pointer">
+        <i className="fa-regular fa-message pointer"></i>
+        <i className="fa-solid fa-retweet pointer"></i>
+        <i className="fa-regular fa-heart pointer"></i>
       </div>
     </div>
   );
@@ -46,9 +46,9 @@ function Media(props) {
         </div>
       </div>
       <div className="icons column-full">
-        <i className="fa-regular fa-message"></i>
-        <i className="fa-solid fa-retweet"></i>
-        <i className="fa-regular fa-heart"></i>
+        <i className="fa-regular fa-message pointer"></i>
+        <i className="fa-solid fa-retweet pointer"></i>
+        <i className="fa-regular fa-heart pointer"></i>
       </div>
     </div>
   );
